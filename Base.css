@@ -1,0 +1,149 @@
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif; background-color: #ffffff;}
+section{width:100%; max-width:1200px; margin:0px auto; display:table; position:relative;}
+h1{margin:0px auto; display:table; font-size:30px; padding:20px 0px; color:#18A4E0; text-align:center;}
+h1 span{font-weight:500;}
+
+header{width:100%; display:table; background-color:#043353; margin-bottom:50px;}
+#logo{float:left; font-size:24px; text-transform:uppercase; color:#18A4E0; font-weight:600; padding:20px 0px;}
+nav{width:auto; float:left;}
+nav ul{display:table; float:right;}
+nav ul li{float:left;}
+nav ul li:last-child{padding-right:0px;}
+nav ul li a{color:#ffffff; font-size:18px; padding: 25px 20px; display:inline-block; transition: all 0.5s ease 0s;}
+nav ul li a:hover{background-color:#18A4E0; color:#043353; transition: all 0.5s ease 0s;}
+nav ul li a:hover i{color:#043353; transition: all 0.5s ease 0s;}
+nav ul li a i{padding-right:10px; color:#18A4E0; transition: all 0.5s ease 0s;}
+.toggle-menu ul{display:table; width:25px;}
+.toggle-menu ul li{width:100%; height:3px; background-color:#18A4E0; margin-bottom:4px;}
+.toggle-menu ul li:last-child{margin-bottom:0px;}
+
+input[type=checkbox], label{display:none;}
+
+.content{display:table; margin-bottom:60px; width:900px;}
+.content h2{font-size:25px; font-weight:500; color:#18A4E0; border-bottom:1px solid #043353; display:table; padding-bottom:10px; margin-bottom:10px;}
+.content p{font-size:14px; line-height:22px; color:#383838; text-align:justify;}
+
+footer{display:table; padding-bottom:30px; width:100%;}
+.social{margin:0px auto; display:table; display:table;}
+.social li{float:left; padding:0px 10px;}
+.social li a{color:#18A4E0; transition: all 0.5s ease 0s;}
+.social li a:hover{color:#043353; transition: all 0.5s ease 0s;}
+
+@media only screen and (max-width: 1440px) {
+section{max-width:95%;}
+
+}
+
+@media only screen and (max-width: 980px) {
+header{padding:20px 0px;}
+#logo{padding:0px;}
+input[type=checkbox] {position: absolute; top: -9999px; left: -9999px; background:none;}
+input[type=checkbox]:fous{background:none;}
+label {float:right; padding:8px 0px; display:inline-block; cursor:pointer; }
+input[type=checkbox]:checked ~ nav {display:block;}
+
+nav{display:none; position:absolute; right:0px; top:53px; background-color:#002e5b; padding:0px; z-index:99;}
+nav ul{width:auto;}
+nav ul li{float:none; padding:0px; width:100%; display:table;}
+nav ul li a{color:#FFF; font-size:15px; padding:10px 20px; display:block; border-bottom: 1px solid rgba(225,225,225,0.1);}
+nav ul li a i{color:#fde428; padding-right:13px;}
+
+}
+
+@media only screen and (max-width: 980px) {
+.content{width:90%;}
+}
+
+@media only screen and (max-width: 568px) {
+h1{padding:25px 0px;}
+h1 span{display:block;}
+}
+
+@media only screen and (max-width: 480px) {
+section {max-width: 90%;}
+
+}
+
+@media only screen and (max-width: 360px) {
+h1{font-size:20px;}
+label{padding:5px 0px;}
+#logo{font-size: 20px;}
+nav{top:47px;}
+}
+
+@media only screen and (max-width: 320px) {
+h1 {padding: 20px 0px;}
+.titulosub{
+    font-size: 50px;
+    padding:0px 0px;
+}
+.foto2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 95px ;height: 80px;
+} 
+.fotopersonalizada{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 140px ;height: 55px;
+}
+.fotopersonalizada2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 125px ;height: 65px;
+}
+.fotopersonalizada3{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 30px ;height: 70px;
+}
+.fotoacompañante1{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 130px ;height: 80px;
+}
+.fotoacompañante2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 100px ;height: 70px;
+}
+.fotoacompañante3{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 80px ;height: 130px;
+}
+}
+
+.logoredes{
+    height: 50px;
+    width: 50px;
+    margin:0px auto; display:table; font-size:15px; color:#383838; text-align:center;padding:0px 20px;
+}
+
+.foto1{
+    padding: 5px; margin: 5px; border: 0px solid black; float: left; width: 120px
+}
+
+.titulosub{
+    font-size: 50px;
+    padding:0px 0px;
+}
+.foto2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 185px ;height: 155px;
+}
+th{
+    font-family: 'Open Sans', sans-serif; font-size:20px; line-height:22px; color:#686868;
+} 
+.direccion{
+    font-family: 'Open Sans', sans-serif; font-size:20px; line-height:22px; color:#686868; font-weight:200;
+}
+.textogeneral{
+    font-family: 'Open Sans', sans-serif; font-size:20px; line-height:22px; color:#686868;
+}
+.fotopersonalizada{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 280px ;height: 110px;
+}
+.fotopersonalizada2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 230px ;height: 110px;
+}
+.fotopersonalizada3{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 130px ;height: 170px;
+}
+.fotoacompañante1{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 250px ;height: 200px;
+}
+.fotoacompañante2{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 220px ;height: 190px;
+}
+.fotoacompañante3{
+    padding: 15px; margin: 15px; border: 0px solid black; float: left; width: 200px ;height: 250px;
+}
+
+
